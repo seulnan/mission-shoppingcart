@@ -4,8 +4,8 @@ import mission.controller.implement.CartController;
 import mission.domain.lecture.LectureRepository;
 import mission.ui.InputView;
 import mission.ui.OutputView;
-import mission.ui.implement.ConsoleInputView;
-import mission.ui.implement.ConsoleOutputView;
+import mission.ui.implement.input.ConsoleInputView;
+import mission.ui.implement.output.ConsoleOutputView;
 
 public class AppConfig {
     public CartController cartController() {

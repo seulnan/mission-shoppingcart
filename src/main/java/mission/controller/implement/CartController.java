@@ -2,7 +2,7 @@ package mission.controller.implement;
 
 import java.util.List;
 import mission.controller.Controller;
-import mission.domain.cart.Budget;
+import mission.domain.cart.budget.implement.TotalBudget;
 import mission.domain.cart.Cart;
 import mission.domain.lecture.Lecture;
 import mission.domain.lecture.LectureRepository;
@@ -22,7 +22,7 @@ public class CartController implements Controller {
 
     public void run() {
         int budgetValue = inputView.inputTotalBudget();
-        Budget budget = new Budget(budgetValue);
+        TotalBudget budget = new TotalBudget(budgetValue);
 
         List<Integer> lectureIds = inputView.inputLectureIds();
         List<Lecture> lectures = lectureRepository.findByIds(lectureIds);

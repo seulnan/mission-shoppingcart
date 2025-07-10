@@ -1,4 +1,4 @@
-package mission.ui.implement;
+package mission.ui.implement.output;
 
 import mission.ui.OutputView;
 

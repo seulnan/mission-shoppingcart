@@ -1,4 +1,4 @@
-package mission.ui.implement;
+package mission.ui.implement.input;
 
 import api.Console;
 import java.util.Arrays;

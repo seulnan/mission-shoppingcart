@@ -1,9 +1,9 @@
-package mission.domain.cart;
+package mission.domain.cart.budget.implement;
 
-public class Budget {
+public class TotalBudget {
     private final int totalBudget;
 
-    public Budget(int totalBudget) {
+    public TotalBudget(int totalBudget) {
         if (totalBudget < 0) {
             throw new IllegalArgumentException("예산은 음수가 될 수 없습니다.");
         }
